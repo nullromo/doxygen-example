@@ -1,0 +1,120 @@
+\hypertarget{utility_8cpp}{}\section{src/utility.cpp File Reference}
+\label{utility_8cpp}\index{src/utility.\+cpp@{src/utility.\+cpp}}
+{\ttfamily \#include \char`\"{}utility.\+hpp\char`\"{}}\newline
+Include dependency graph for utility.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{utility_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{utility_8cpp_ab12b3cad66448e2bfc8c590d002052da}{square} (int x)
+\begin{DoxyCompactList}\small\item\em Squares a number. \end{DoxyCompactList}\item 
+int \hyperlink{utility_8cpp_a50de380d6a4786c51a18168d9d9c7fa1}{multiply} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Multiplies two numbers. \end{DoxyCompactList}\item 
+int \hyperlink{utility_8cpp_a07a97f4470961bb441483bc3e8748861}{magic} (int x)
+\begin{DoxyCompactList}\small\item\em Function for magic math. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{utility_8cpp_a07a97f4470961bb441483bc3e8748861}\label{utility_8cpp_a07a97f4470961bb441483bc3e8748861}} 
+\index{utility.\+cpp@{utility.\+cpp}!magic@{magic}}
+\index{magic@{magic}!utility.\+cpp@{utility.\+cpp}}
+\subsubsection{\texorpdfstring{magic()}{magic()}}
+{\footnotesize\ttfamily int magic (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Function for magic math. 
+
+This function multiplies a number by the magic number.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The number on which to perfom magic. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The magic product of the number. 
+\end{DoxyReturn}
+
+
+Definition at line 14 of file utility.\+cpp.
+
+
+
+References M\+A\+G\+I\+C\+\_\+\+N\+U\+M\+B\+ER.
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+14                  \{
+15     \textcolor{keywordflow}{return} \hyperlink{utility_8hpp_a54061e5993a5517320d425f44408cc86}{MAGIC\_NUMBER} * x;
+16 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{utility_8cpp_a50de380d6a4786c51a18168d9d9c7fa1}\label{utility_8cpp_a50de380d6a4786c51a18168d9d9c7fa1}} 
+\index{utility.\+cpp@{utility.\+cpp}!multiply@{multiply}}
+\index{multiply@{multiply}!utility.\+cpp@{utility.\+cpp}}
+\subsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily int multiply (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Multiplies two numbers. 
+
+This function multiplies a number times another number and returns the result of those two numbers multiplied together. The result is the product of the two numbers, and that is the value that is returned by this function.
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The first operand. \\
+\hline
+{\em y} & The second operand. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product. 
+\end{DoxyReturn}
+
+
+Definition at line 10 of file utility.\+cpp.
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+10                            \{
+11     \textcolor{keywordflow}{return} x * y;
+12 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{utility_8cpp_ab12b3cad66448e2bfc8c590d002052da}\label{utility_8cpp_ab12b3cad66448e2bfc8c590d002052da}} 
+\index{utility.\+cpp@{utility.\+cpp}!square@{square}}
+\index{square@{square}!utility.\+cpp@{utility.\+cpp}}
+\subsubsection{\texorpdfstring{square()}{square()}}
+{\footnotesize\ttfamily int square (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Squares a number. 
+
+he 
+
+Definition at line 6 of file utility.\+cpp.
+
+
+
+Referenced by main().
+
+
+\begin{DoxyCode}
+6                   \{
+7     \textcolor{keywordflow}{return} x * x;
+8 \}
+\end{DoxyCode}
