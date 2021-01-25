@@ -1,0 +1,13 @@
+PROBLEM REPORT
+PR#: 1
+Date Opened:
+Date Closed:
+
+NPD Number:123-45
+Project Code:12345
+Project Name:EXAMPLE
+
+Software Version: 123.456.789X0
+Requirement ID:
+
+Description:
