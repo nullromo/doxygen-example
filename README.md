@@ -77,6 +77,8 @@ Line 438:
 EXTRACT_ALL            = YES
 Line 867:
 RECURSIVE              = YES
+Line 876:
+EXCLUDE                = README.md
 Line 998:
 SOURCE_BROWSER         = YES
 Line 1004:

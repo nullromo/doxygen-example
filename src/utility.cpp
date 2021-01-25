@@ -1,8 +1,5 @@
 #include "utility.hpp"
 
-/**
- * he
- */
 int square(int x) {
     return x * x;
 }
