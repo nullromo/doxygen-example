@@ -73,10 +73,10 @@ Line 54:
 PROJECT_LOGO           = "/mnt/r/Resources/icons/DiConIcon.ico"
 Line 61:
 OUTPUT_DIRECTORY       = "generated-docs"
-Line 438:
-EXTRACT_ALL            = YES
 Line 444:
 EXTRACT_PRIVATE        = YES
+Line 759:
+WARN_NO_PARAMDOC       = YES
 Line 867:
 RECURSIVE              = YES
 Line 876:

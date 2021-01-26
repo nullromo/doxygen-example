@@ -29,7 +29,7 @@ int square(int x);
  *
  * \param x The first operand.
  * \param y The second operand.
- * \return The product.
+ * \return The product of `x` and `y`.
  */
 int multiply(int x, int y);
 
