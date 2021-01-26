@@ -22,7 +22,7 @@ OPTIONS+=' --break-one-line-headers ' # don't allow one-line if statements
 OPTIONS+=' --add-braces '             # add braces to single-statement blocks
 OPTIONS+=' --attach-return-type '     # don't break lines in the middle of a function header
 OPTIONS+=' --convert-tabs '           # convert tab characters to spaces
-OPTIONS+=' --max-code-length=120 '    # line wrapping
+OPTIONS+=' --max-code-length=80 '    # line wrapping
 OPTIONS+=' --break-after-logical '    # leave logical operators on the end of the line
 echo Running autoformatter with options: ${OPTIONS}
 astyle ${OPTIONS} --recursive "./*.cpp"
