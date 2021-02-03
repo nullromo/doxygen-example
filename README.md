@@ -64,7 +64,7 @@ This Doxygen comment is complete, because it contains a `\brief` description of 
 ## Grouping Members
 You can also group members that go together. For example, you may have 5 constants that would require the same documentation:
 
-```
+```c
 #define MEW2KING 1
 #define ARMADA 2
 #define HUNGRYBOX 3
@@ -74,7 +74,7 @@ You can also group members that go together. For example, you may have 5 constan
 
 Instead of writing out the same documentation comment for each of these members, you can create a group like this:
 
-```
+```c
 /**
  * @{
  */
