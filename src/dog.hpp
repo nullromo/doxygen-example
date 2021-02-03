@@ -64,6 +64,7 @@ class Dog {
          * action that costs energy.
          *
          * \param energyToExpend An amount of energy to check.
+         *
          * \return True if the dog has enough energy, and false otherwise.
          */
         bool checkEnergy(int energyToExpend);
