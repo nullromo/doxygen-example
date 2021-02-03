@@ -61,6 +61,40 @@ int add(int x, int y) {
 
 This Doxygen comment is complete, because it contains a `\brief` description of the function, it contains a detailed description beneath that, and it contains `\param` and `\return` descriptions for all its parameters and return values.
 
+## Grouping Members
+You can also group members that go together. For example, you may have 5 constants that would require the same documentation:
+
+```
+#define MEW2KING 1
+#define ARMADA 2
+#define HUNGRYBOX 3
+#define MANGO 4
+#define PPMD 5
+```
+
+Instead of writing out the same documentation comment for each of these members, you can create a group like this:
+
+```
+/**
+ * @{
+ */
+/**
+ * \brief Five Gods constants.
+ *
+ * These five constants represent the five gods.
+ */
+#define MEW2KING 1
+#define ARMADA 2
+#define HUNGRYBOX 3
+#define MANGO 4
+#define PPMD 5
+/**
+ * @}
+ */
+```
+
+If the `DISTRIBUTE_GROUP_DOC` option is set to "YES" in the `Doxyfile`, then the documentation comment will be applied to all the member in the group.
+
 ## This Repository's `Doxyfile`
 The `Doxyfile` in this repository was generated using `doxygen -g`, and then edited in the following way:
 

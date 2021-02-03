@@ -12,3 +12,6 @@ int magic(int x) {
     return MAGIC_NUMBER * x;
 }
 
+int battleOfTheFiveGods() {
+    return MEW2KING * ARMADA * HUNGRYBOX * MANGO * PPMD;
+}

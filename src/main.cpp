@@ -20,6 +20,7 @@ void testNumbers(void) {
     printf("%d times %d is %d\n", x, y, multiply(x, y));
     printf("The magic number is %d\n", MAGIC_NUMBER);
     printf("%d magicked is %d\n", x, magic(x));
+    printf("Fight: %d\n", battleOfTheFiveGods());
     printf("Number test complete.\n");
 }
 
