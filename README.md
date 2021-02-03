@@ -75,6 +75,8 @@ Line 61:
 OUTPUT_DIRECTORY       = "generated-docs"
 Line 438:
 EXTRACT_ALL            = YES
+Line 363:
+DISTRIBUTE_GROUP_DOC   = YES
 Line 444:
 EXTRACT_PRIVATE        = YES
 Line 450:
