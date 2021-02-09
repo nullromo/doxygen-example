@@ -10,7 +10,7 @@
 #define MAGIC_NUMBER 1337
 
 /**
- * @{
+ * @{ \name Five Gods constants.
  */
 /**
  * \brief Five Gods constants.

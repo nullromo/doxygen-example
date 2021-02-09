@@ -120,7 +120,7 @@ members, you can create a group like this:
 
 ```c
 /**
- * @{
+ * @{ \name Five Gods constants.
  */
 /**
  * \brief Five Gods constants.
@@ -138,7 +138,8 @@ members, you can create a group like this:
 ```
 
 If the `DISTRIBUTE_GROUP_DOC` option is set to "YES" in the `Doxyfile`, then
-the documentation comment will be applied to all the member in the group.
+the documentation comment will be applied to all the member in the group. The
+`\name` tag also shows up as a heading over the group members.
 
 ## This Repository's `Doxyfile`
 
