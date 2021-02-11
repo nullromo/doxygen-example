@@ -186,6 +186,10 @@ Line 1023:
 REFERENCES_RELATION    = YES
 Line 1031:
 REFERENCES_LINK_SOURCE = NO
+Line 2334:
+CALL_GRAPH             = YES
+Line 2346:
+CALLER_GRAPH           = YES
 ```
 
 ## Tips/Rules
