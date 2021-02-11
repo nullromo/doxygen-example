@@ -4,6 +4,7 @@ pages:
   script:
     - doxygen
     - mv generated-docs/html public
+    - mv ./DiConIcon.ico public
   artifacts:
     paths:
     - public

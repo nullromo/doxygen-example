@@ -7,6 +7,9 @@ set up as an example that shows how Doxygen can be used.
 For more information about how Doxygen works, see the [official Doxygen
 website](https://www.doxygen.nl/index.html).
 
+The Doxygen output for the project is available
+[here](http://kkovacs.gitlab-pages/doxygen_example/).
+
 ## This Repository
 
 There are a few example C++ files in the `src/` directory. To run the code,
