@@ -6,5 +6,5 @@ pages:
     - mv generated-docs/html public
   artifacts:
     paths:
-      public
+    - public
 
