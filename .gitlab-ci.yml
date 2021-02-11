@@ -1,0 +1,10 @@
+image: tsgkadot/docker-doxygen
+pages:
+  stage: deploy
+  script:
+    - doxygen
+    - mv generated-docs/html public
+  artifacts:
+    paths:
+      public
+
