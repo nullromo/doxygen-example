@@ -1,7 +1,7 @@
 #include "main.hpp"
-#include <stdio.h>
-#include "utility.hpp"
 #include "dog.hpp"
+#include "utility.hpp"
+#include <stdio.h>
 
 int main(int argc, char** argv) {
     printf("Start\n\n");
@@ -41,4 +41,3 @@ void testDog(void) {
     fido->bark();
     printf("Dog test complete.\n");
 }
-

@@ -1,10 +1,12 @@
-image: tsgkadot/docker-doxygen
+image: hrektts/doxygen
 pages:
   stage: deploy
+  before_script:
+    - doxygen -v
+    - dot -V
   script:
     - doxygen
     - mv generated-docs/html public
-    - mv ./DiConIcon.ico public
   artifacts:
     paths:
     - public

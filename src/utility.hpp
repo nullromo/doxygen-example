@@ -17,11 +17,11 @@
  *
  * These five constants represent the five gods.
  */
-#define MEW2KING 1
-#define ARMADA 2
+#define MEW2KING  1
+#define ARMADA    2
 #define HUNGRYBOX 3
-#define MANGO 4
-#define PPMD 5
+#define MANGO     4
+#define PPMD      5
 /**
  * @}
  */
@@ -74,4 +74,3 @@ int magic(int x);
 int battleOfTheFiveGods();
 
 #endif // UTILITY_H
-

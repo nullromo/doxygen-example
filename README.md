@@ -52,6 +52,24 @@ configuration, the output will simply appear in the same folder as the
 be an `html` folder, with a file called `index.html` in it. Open the
 `index.html` file with a web browser to view the documentation.
 
+## How to Deploy Doxygen to Gitlab
+
+After each push, Gitlab scans your repository for a file called
+`.gitlab-ci.yml`. If that file is present, it will read the file and check that
+the file specifies a valid CI pipeline. If it is valid, then Gitlab looks for
+an available "runner." Runners can be other computers on the network, but in
+this case the runner is a docker container within the gitlab server virtual
+machine. Once a runner is available, Gitlab assigns a build for the project to
+the runner. The runner uses the pipeline from the `.gitlab-ci.yml`
+configuration file to know what actions to take. Part of that pipeline can
+include exporting build artifacts (like Doxygen html files or firmware .hex
+files).
+
+For our Doxygen deploys, the configuration file will specify that `doxygen` is
+to be run, and that the built files are to be copied to the correct location
+for deployment. So in short, including the `.gitlab-ci.yml` will cause your
+deployed documents to update every time you push.
+
 ## How to Comment for Doxygen
 
 Doxygen comments start with `/**` and end with `*/`, like this:
@@ -88,7 +106,8 @@ int add(int x, int y) {
 
 This Doxygen comment is complete, because it contains a `\brief` description of
 the function, it contains a detailed description beneath that, and it contains
-`\param` and `\return` descriptions for all its parameters and return values.
+`\param` and `\return` descriptions for all its parameters and its return
+value.
 
 ## Commenting for C/C++ with Header Files
 

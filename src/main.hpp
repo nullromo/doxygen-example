@@ -6,4 +6,3 @@ void testNumbers(void);
 void testDog(void);
 
 #endif // MAIN_H
-
