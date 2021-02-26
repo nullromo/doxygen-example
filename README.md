@@ -174,7 +174,7 @@ PROJECT_NAME           = "Kyle's Doxygen Test"
 Line 47:
 PROJECT_BRIEF          = "This is just a test of Doxygen"
 Line 54:
-PROJECT_LOGO           = "/mnt/r/Resources/icons/DiConIcon.ico"
+PROJECT_LOGO           = "./DiConIcon.ico"
 Line 61:
 OUTPUT_DIRECTORY       = "generated-docs"
 Line 438:
@@ -210,6 +210,10 @@ CALL_GRAPH             = YES
 Line 2346:
 CALLER_GRAPH           = YES
 ```
+
+**NOTE**: The `DiConIcon.ico` file needs to be accessible at the given path (in
+this case in the root of the repository) in order for it to show up in the
+documentation pages.
 
 ## Tips/Rules
 - Always use a `\param` tag for every parameter.
