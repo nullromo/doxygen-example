@@ -18,6 +18,14 @@ there is a `run.sh` file, which compiles the code and runs the result. An
 
 ## How to Install Doxygen
 
+### WSL Installation Instructions
+
+If you are using a Windows computer, you should be using Windows Subsystem for
+Linux (WSL). There is no reason not to use it. It is vastly superior to the
+available Windows command prompt and to alternatives like GitBash. On top of
+that, you should be using WSL-TTY. If you use these, installing doxygen is as
+simple as following the steps below.
+
 Doxygen can be installed with apt.
 
 ```
@@ -36,6 +44,19 @@ Now you should be able to run Doxygen from the command line.
 ```
 doxygen --version
 ```
+
+### Windows Installation Instructions
+
+If for some reason you are not using WSL, you can follow these steps to install
+Doxygen.
+
+1. Download and install Doxygen for Windows from the Doxygen website.
+2. Add Doxygen to the Windows PATH.
+3. Install the latest stable release of graphviz.
+4. Add graphviz to the Windows PATH.
+5. Modify the `Doxyfile`'s `DOT_PATH` variable to point to the path of the
+   graphviz executable.
+6. Run doxygen.
 
 ## How to Use Doxygen
 
