@@ -1,0 +1,7 @@
+<map id="Dog::bark" name="Dog::bark">
+<area shape="rect" id="Node000001" title="Causes the dog to bark." alt="" coords="217,5,292,31"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae0f669050fa21339b103732480fc9667" title=" " alt="" coords="103,5,169,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,21,169,21,169,16,202,16"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,55,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,21,55,21,55,16,88,16"/>
+</map>

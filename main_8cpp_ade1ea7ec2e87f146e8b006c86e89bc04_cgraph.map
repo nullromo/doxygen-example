@@ -1,0 +1,11 @@
+<map id="testNumbers" name="testNumbers">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,102,106"/>
+<area shape="rect" id="Node000002" href="$utility_8cpp.html#ab2d299d418c81fbbdb83fe90f0d11bb2" title="Multiplies all the gods together." alt="" coords="150,5,295,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,77,149,40,163,34,165,39,151,45,79,82"/>
+<area shape="rect" id="Node000003" href="$utility_8cpp.html#a07a97f4470961bb441483bc3e8748861" title="Function for magic math." alt="" coords="194,55,251,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,83,179,71,180,76,102,88"/>
+<area shape="rect" id="Node000004" href="$utility_8cpp.html#a50de380d6a4786c51a18168d9d9c7fa1" title="Multiplies two numbers." alt="" coords="190,104,255,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="102,97,176,108,175,113,102,102"/>
+<area shape="rect" id="Node000005" href="$utility_8cpp.html#ab12b3cad66448e2bfc8c590d002052da" title="Squares a number." alt="" coords="192,153,253,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="79,104,151,140,179,151,177,156,149,145,77,109"/>
+</map>

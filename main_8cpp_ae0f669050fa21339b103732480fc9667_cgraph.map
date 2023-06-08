@@ -1,0 +1,15 @@
+<map id="testDog" name="testDog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,72,80"/>
+<area shape="rect" id="Node000002" href="$classDog.html#a710429cc93dc5140d5616f72804468a9" title="Causes the dog to bark." alt="" coords="123,5,198,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="71,52,112,35,114,40,73,57"/>
+<area shape="rect" id="Node000004" href="$classDog.html#a756ea89c1b661023452d87063049145e" title="Causes the dog to run." alt="" coords="126,55,195,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="72,65,111,65,111,70,72,70"/>
+<area shape="rect" id="Node000006" href="$classDog.html#a8082ce753fd0911a6744bfa553a65e48" title="Causes the dog to sleep." alt="" coords="120,104,201,130"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="73,78,114,95,112,100,71,83"/>
+<area shape="rect" id="Node000003" href="$classDog.html#a50f21c8181e2871699af6fe8edad9a4f" title="Checks the dog&#39;s energy." alt="" coords="249,31,373,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="199,22,235,28,234,33,198,27"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="194,59,234,53,235,58,195,65"/>
+<area shape="rect" id="Node000005" href="$utility_8cpp.html#a50de380d6a4786c51a18168d9d9c7fa1" title="Multiplies two numbers." alt="" coords="279,92,344,118"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="196,73,265,91,264,96,194,78"/>
+<area shape="poly" id="edge7_Node000006_Node000005" title=" " alt="" coords="201,111,263,106,264,111,202,116"/>
+</map>
