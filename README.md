@@ -8,7 +8,7 @@ For more information about how Doxygen works, see the [official Doxygen
 website](https://www.doxygen.nl/index.html).
 
 The Doxygen output for the project is available
-[here](http://kkovacs.gitlab-pages/doxygen_example/files.html).
+[here](https://nullromo.github.io/doxygen-example/).
 
 ## This Repository
 
